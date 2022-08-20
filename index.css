@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+h3 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+    text-align: center;
+    color: #EEEEEE;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+}
+
+.cntr-disp {
+    display: flex;
+    width: 155px;
+    height: 120px;
+    background: #080001;
+}
+
+.cntr-txt {
+    position: relative;
+    width: 200px;
+    height: 120px;
+    left: 0px;
+    top: 125px
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+    text-align: center;
+    color: #F94F6D;
+}
+.add-points-btns-home {
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    margin: 10px 0 0 0;
+}
+#btn-plus {
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+    text-align: center;
+    color: #9AABD8;
+    margin: 1px;
+}
